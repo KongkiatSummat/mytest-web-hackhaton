@@ -1,4 +1,5 @@
 const API_BASE = 'http://54.169.154.143:3867';
+
 const listEl = document.getElementById('appointments-list');
 const showError = msg => listEl.innerHTML = `<div style="color:crimson">${msg}</div>`;
 
